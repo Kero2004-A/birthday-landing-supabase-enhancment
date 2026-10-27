@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="300" viewBox="0 0 1280 300" role="img" aria-label="How it works: fill in the form, it is saved in Supabase, you get a short link, they open the surprise">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#00274a"/><stop offset="1" stop-color="#00142a"/>
+    </linearGradient>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto">
+      <path d="M2 2 L10 6 L2 10" fill="none" stroke="#ffd27a" stroke-width="2" stroke-linecap="round"/>
+    </marker>
+  </defs>
+  <rect width="1280" height="300" rx="24" fill="url(#bg)"/>
+  <g font-family="Helvetica, Arial, sans-serif" text-anchor="middle">
+    <g>
+      <rect x="40" y="60" width="240" height="180" rx="20" fill="#00274a" stroke="#ff7b9c" stroke-opacity=".6" stroke-width="2"/>
+      <text x="160" y="105" font-size="34" fill="#ffd27a">1</text>
+      <text x="160" y="148" font-size="24" font-weight="bold" fill="#fff4e8">Fill in the form</text>
+      <text x="160" y="180" font-size="17" fill="#fff4e8" opacity=".75">name, photos, song,</text>
+      <text x="160" y="204" font-size="17" fill="#fff4e8" opacity=".75">letter, reveal date</text>
+    </g>
+    <path d="M286 150 H350" stroke="#ffd27a" stroke-width="2.5" marker-end="url(#arrow)"/>
+    <g>
+      <rect x="360" y="60" width="240" height="180" rx="20" fill="#00274a" stroke="#ff7b9c" stroke-opacity=".6" stroke-width="2"/>
+      <text x="480" y="105" font-size="34" fill="#ffd27a">2</text>
+      <text x="480" y="148" font-size="24" font-weight="bold" fill="#fff4e8">Saved privately</text>
+      <text x="480" y="180" font-size="17" fill="#fff4e8" opacity=".75">in your own Supabase</text>
+      <text x="480" y="204" font-size="17" fill="#fff4e8" opacity=".75">database and storage</text>
+    </g>
+    <path d="M606 150 H670" stroke="#ffd27a" stroke-width="2.5" marker-end="url(#arrow)"/>
+    <g>
+      <rect x="680" y="60" width="240" height="180" rx="20" fill="#00274a" stroke="#ff7b9c" stroke-opacity=".6" stroke-width="2"/>
+      <text x="800" y="105" font-size="34" fill="#ffd27a">3</text>
+      <text x="800" y="148" font-size="24" font-weight="bold" fill="#fff4e8">One short link</text>
+      <text x="800" y="180" font-size="17" fill="#fff4e8" opacity=".75">/b/Xk3p9aQ2</text>
+      <text x="800" y="204" font-size="17" fill="#fff4e8" opacity=".75">nothing personal inside</text>
+    </g>
+    <path d="M926 150 H990" stroke="#ffd27a" stroke-width="2.5" marker-end="url(#arrow)"/>
+    <g>
+      <rect x="1000" y="60" width="240" height="180" rx="20" fill="#ff527b" fill-opacity=".18" stroke="#ffd27a" stroke-width="2"/>
+      <text x="1120" y="105" font-size="34" fill="#ffd27a">4</text>
+      <text x="1120" y="148" font-size="24" font-weight="bold" fill="#fff4e8">The surprise</text>
+      <text x="1120" y="180" font-size="17" fill="#fff4e8" opacity=".75">countdown, cake, candles,</text>
+      <text x="1120" y="204" font-size="17" fill="#fff4e8" opacity=".75">memories, letter</text>
+    </g>
+  </g>
+</svg>

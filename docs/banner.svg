@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="640" viewBox="0 0 1280 640" role="img" aria-label="Birthday Surprise: a short link opens a countdown, a cake with candles, memories and a letter">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#00274a"/>
+      <stop offset="1" stop-color="#00142a"/>
+    </linearGradient>
+    <linearGradient id="pink" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ff7b9c"/>
+      <stop offset="1" stop-color="#ff527b"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#ffd27a" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#ffd27a" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1280" height="640" fill="url(#bg)"/>
+  <circle cx="1010" cy="300" r="300" fill="url(#glow)"/>
+
+  <!-- stars -->
+  <g fill="#fff4e8">
+    <circle cx="70" cy="60" r="2" opacity=".6"/><circle cx="210" cy="120" r="1.5" opacity=".4"/>
+    <circle cx="470" cy="50" r="2" opacity=".5"/><circle cx="640" cy="110" r="1.5" opacity=".4"/>
+    <circle cx="780" cy="40" r="2" opacity=".6"/><circle cx="1230" cy="90" r="2" opacity=".5"/>
+    <circle cx="1180" cy="560" r="1.5" opacity=".4"/><circle cx="60" cy="590" r="2" opacity=".5"/>
+    <circle cx="560" cy="600" r="1.5" opacity=".4"/><circle cx="740" cy="560" r="2" opacity=".5"/>
+  </g>
+  <!-- confetti -->
+  <g>
+    <rect x="780" y="150" width="14" height="6" rx="2" fill="#ff7b9c" transform="rotate(25 787 153)"/>
+    <rect x="1230" y="210" width="14" height="6" rx="2" fill="#ffd27a" transform="rotate(-30 1237 213)"/>
+    <rect x="800" y="470" width="14" height="6" rx="2" fill="#ffd27a" transform="rotate(40 807 473)"/>
+    <rect x="1215" y="430" width="14" height="6" rx="2" fill="#ff7b9c" transform="rotate(-20 1222 433)"/>
+    <circle cx="830" cy="90" r="5" fill="#ffd27a"/><circle cx="1240" cy="330" r="5" fill="#ff7b9c"/>
+    <circle cx="790" cy="330" r="4" fill="#fff4e8" opacity=".7"/>
+  </g>
+
+  <!-- headline -->
+  <text x="80" y="170" font-family="Georgia, 'Times New Roman', serif" font-size="30" fill="#ffd27a" letter-spacing="6">A BIRTHDAY SURPRISE</text>
+  <text x="80" y="270" font-family="Georgia, 'Times New Roman', serif" font-size="88" font-weight="bold" fill="#fff4e8">One short link.</text>
+  <text x="80" y="370" font-family="Georgia, 'Times New Roman', serif" font-size="88" font-weight="bold" fill="#ff7b9c">One big moment.</text>
+  <text x="80" y="430" font-family="Helvetica, Arial, sans-serif" font-size="26" fill="#fff4e8" opacity=".85">Countdown, cake, candles, memories and a letter,</text>
+  <text x="80" y="466" font-family="Helvetica, Arial, sans-serif" font-size="26" fill="#fff4e8" opacity=".85">in English or Arabic, sent as a private link.</text>
+
+  <!-- tech pills -->
+  <g font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#fff4e8" text-anchor="middle">
+    <rect x="80" y="520" width="140" height="44" rx="22" fill="none" stroke="#fff4e8" stroke-opacity=".35"/>
+    <text x="150" y="549">Next.js 15</text>
+    <rect x="234" y="520" width="140" height="44" rx="22" fill="none" stroke="#fff4e8" stroke-opacity=".35"/>
+    <text x="304" y="549">Supabase</text>
+    <rect x="388" y="520" width="170" height="44" rx="22" fill="none" stroke="#fff4e8" stroke-opacity=".35"/>
+    <text x="473" y="549">Tailwind CSS 4</text>
+    <rect x="572" y="520" width="110" height="44" rx="22" fill="none" stroke="#fff4e8" stroke-opacity=".35"/>
+    <text x="627" y="549">GSAP</text>
+  </g>
+
+  <!-- phone -->
+  <g>
+    <rect x="860" y="50" width="300" height="540" rx="40" fill="#00142a" stroke="#fff4e8" stroke-opacity=".3" stroke-width="3"/>
+    <rect x="990" y="66" width="40" height="8" rx="4" fill="#fff4e8" opacity=".25"/>
+
+    <!-- link bar -->
+    <rect x="884" y="96" width="252" height="34" rx="17" fill="#00274a"/>
+    <text x="1010" y="119" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#ffd27a" text-anchor="middle">yoursite.com/b/Xk3p9aQ2</text>
+
+    <!-- flames -->
+    <g>
+      <path d="M958 232 C946 252 950 266 958 268 C966 266 970 252 958 232 Z" fill="#ffd27a"/>
+      <path d="M958 246 C953 256 955 264 958 265 C961 264 963 256 958 246 Z" fill="#ff7b9c"/>
+      <path d="M1062 232 C1050 252 1054 266 1062 268 C1070 266 1074 252 1062 232 Z" fill="#ffd27a"/>
+      <path d="M1062 246 C1057 256 1059 264 1062 265 C1065 264 1067 256 1062 246 Z" fill="#ff7b9c"/>
+    </g>
+    <!-- number candles -->
+    <rect x="934" y="272" width="48" height="100" rx="14" fill="url(#pink)"/>
+    <rect x="1038" y="272" width="48" height="100" rx="14" fill="url(#pink)"/>
+    <text x="958" y="352" font-family="Georgia, serif" font-size="52" font-weight="bold" fill="#fff4e8" text-anchor="middle">2</text>
+    <text x="1062" y="352" font-family="Georgia, serif" font-size="52" font-weight="bold" fill="#fff4e8" text-anchor="middle">2</text>
+
+    <!-- cake -->
+    <rect x="920" y="370" width="180" height="56" rx="12" fill="#fff4e8"/>
+    <rect x="890" y="424" width="240" height="84" rx="14" fill="url(#pink)"/>
+    <g fill="#ffd27a">
+      <circle cx="918" cy="456" r="5"/><circle cx="954" cy="470" r="5"/><circle cx="990" cy="456" r="5"/>
+      <circle cx="1026" cy="470" r="5"/><circle cx="1062" cy="456" r="5"/><circle cx="1098" cy="470" r="5"/>
+    </g>
+    <ellipse cx="1010" cy="514" rx="132" ry="12" fill="#fff4e8" opacity=".9"/>
+
+    <!-- tagline in phone -->
+    <text x="1010" y="556" font-family="Georgia, serif" font-size="20" fill="#fff4e8" text-anchor="middle" font-style="italic">Make a wish…</text>
+  </g>
+</svg>
